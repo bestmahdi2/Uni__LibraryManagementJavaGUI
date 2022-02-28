@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="code.CommentSeek">
+  <grid id="27dc6" binding="commentSeekFrame" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="504" height="700"/>
+    </constraints>
+    <properties>
+      <maximumSize width="500" height="700"/>
+      <minimumSize width="500" height="700"/>
+      <preferredSize width="500" height="700"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="377f3" binding="inJpanel" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="700"/>
+            <preferred-size width="500" height="700"/>
+            <maximum-size width="500" height="700"/>
+          </grid>
+        </constraints>
+        <properties>
+          <maximumSize width="500" height="600"/>
+          <minimumSize width="500" height="600"/>
+          <preferredSize width="500" height="600"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="b96bb">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="e5201">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="31ae4">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <grid id="b5c18" binding="labelUsername" layout-manager="GridLayoutManager" row-count="9" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+            </properties>
+            <border type="none" title=""/>
+            <children>
+              <component id="8a889" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="         "/>
+                </properties>
+              </component>
+              <component id="d89ce" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="17" style="1"/>
+                  <text value="Choose a user to see his/her commnets"/>
+                </properties>
+              </component>
+              <component id="1d87" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="     "/>
+                </properties>
+              </component>
+              <component id="fba30" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="     "/>
+                </properties>
+              </component>
+              <component id="77513" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="           "/>
+                </properties>
+              </component>
+              <component id="86d6d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="           "/>
+                </properties>
+              </component>
+              <component id="596df" class="javax.swing.JLabel" binding="labelUser">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="User - Books"/>
+                </properties>
+              </component>
+              <component id="26fa1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <text value="Comment"/>
+                </properties>
+              </component>
+              <component id="4b6c8" class="javax.swing.JLabel" binding="labelErrorSeekComment">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentY value="1.0"/>
+                  <autoscrolls value="false"/>
+                  <font size="11"/>
+                  <foreground color="-4521979"/>
+                  <text value="          "/>
+                  <verticalAlignment value="1"/>
+                </properties>
+              </component>
+              <scrollpane id="b3c4" binding="jscrollBook">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="150"/>
+                    <preferred-size width="-1" height="150"/>
+                    <maximum-size width="-1" height="150"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+              <scrollpane id="d7717" binding="jscrollComment">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="150"/>
+                    <preferred-size width="-1" height="150"/>
+                    <maximum-size width="-1" height="150"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+            </children>
+          </grid>
+          <component id="f61ef" class="javax.swing.JLabel" binding="labelLogo">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="30" style="1"/>
+              <icon value="images/logo64.png"/>
+              <iconTextGap value="10"/>
+              <text value="Admin Partition"/>
+              <verifyInputWhenFocusTarget value="true"/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+          <vspacer id="8f5c0">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="c48bc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <text value="     "/>
+            </properties>
+          </component>
+          <component id="c6b0c" class="javax.swing.JLabel" binding="labelAbout">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="10"/>
+                <maximum-size width="30" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="8"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <text value="About"/>
+              <verticalAlignment value="3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
