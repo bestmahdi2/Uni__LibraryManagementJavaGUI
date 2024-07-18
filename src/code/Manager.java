@@ -37,7 +37,7 @@ public class Manager {
         loginForm = new LoginForm();
 
         // Defaults:
-//        signUp("omid", "1234", "Omid", "Salehi", "admin");
+//        signUp("alib", "1234", "Ali", "Badiee", "admin");
 //        signUp("user", "1234", "User", "Useri", "user");
 //        addBook("Man Pish Az To", "JoJo Moyes", "src/photos/Man Pish Az To.jpg", "src/photos/Man Pish Az To.jpg", "0");
 //        addBook("Pas Az To", "JoJo Moyes", "src/photos/Pas Az To.jpg", "src/photos/Pas Az To.jpg", "0");
